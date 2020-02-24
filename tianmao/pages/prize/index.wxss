@@ -1,0 +1,22 @@
+page{background:#f9f9f9;}
+.prizelist{padding:0 20rpx;}
+.h3{font-size:38rpx;border:none;line-height:120rpx;color:#444;}
+.duihuan{margin-top:50rpx;}
+.duihuan view{color:#888888;font-size:30rpx;line-height:60rpx;}
+.prize{background:#fff;padding:20rpx;justify-content: space-between;display: flex;border-radius:10rpx;max-height:180rpx;overflow: hidden;}
+.prize image{width:150rpx;}
+.prize .info{display: flex;flex-direction: column;justify-content: space-around;padding:10rpx 0;}
+/* .prize text{display: block;} */
+.prize .title{font-size:36rpx;}
+.prize .time{color:#888;font-size:32rpx;}
+.prize button{height:80rpx;line-height:80rpx;margin:30rpx 0 0;font-size:35rpx;color:#fff;}
+.mask{width:100%;height:100%;background:rgba(0,0,0,0.7) ;position:fixed;top:0;left:0;z-index:100;}
+.whitebg{background:#fff;width:70%;position: absolute;top:50%;left:50%;transform: translate(-50%,-50%);padding:30rpx;}
+.whitebg image{width:100%;}
+.gotochou{margin-top:100rpx;width:80%;}
+.openid button{background:#ec940a;color:#fff;margin-top:40rpx;height:90rpx;line-height:90rpx;}
+.openid  view{background:#fff;padding:50rpx 30rpx ;word-wrap:break-word;color:#666;line-height:60rpx;}
+.openid .copy{background: rgb(137, 180, 182);width:30%;}
+.kefu{text-align: center;width:200rpx;overflow: hidden;margin:80rpx auto 30rpx;}
+.kefu image{width:200rpx;}
+.kefu text{color:#666;padding-top:20rpx;}

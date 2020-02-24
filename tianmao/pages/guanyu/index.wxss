@@ -1,0 +1,12 @@
+.title{height:80rpx;line-height:80rpx;font-size:36rpx;color:#fff;background:#ff735a;padding:0 40rpx;text-align: center;width:60%;margin:30rpx auto 10rpx;border-radius: 40rpx;}
+.wrap .article{font-size:30rpx;line-height:60rpx;padding:20rpx  40rpx;text-indent: 2em;}
+.content .article view{font-size:36rpx;color:#ff735a;}
+.wrap .article text{font-size:46rpx;color:#ff735a;}
+.wrap .article .bold{padding:20rpx 0;font-size:52rpx;font-weight: bold;color:#31859d;}
+.wrap .article .min{font-size:34rpx;}
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+
+
+<view class="wrap content">
+  <view class="title">学习内容</view>
+  <view class="article">
+   初级班：HTML+CSS+项目实战
+  </view>
+  <view class="article">
+   终极版：HTML5+CSS3+JS+JQ
+  </view>
+   <view class="article">
+   高级班：ES6+LESS+VUE+WEBPACK+微信小程序+就业训练
+  </view>
+  <view class="article">
+   平面设计班：PS+Cordraw等作图软件
+  </view>
+</view>
+<view class="wrap">
+  <view class="title">工作岗位</view>
+  <view class="article">
+   web前端工程师，网页制作工程师
+   <view class="bold min">web前端工程师工作职责：</view>
+   <view>1、负责电脑网站项目、手机端页面、前端后端数据对接功能开发、HTML 页面开发与维护；</view>
+<view>2、与产品、UI 和后端合作完成界面数据交互工作；</view>
+<view>3、能够独立完成整个项目前端页面的开发，快速完成HTML 代码的编写；</view>
+<view>4、熟悉主流浏览器的差异性，能快速定位、解决开发中遇到的浏览器兼容性问题，不断重构优化</view>
+  </view>
+  </view>
+<view class="wrap">
+  <view class="title">各个城市需求量及薪资</view>
+  <view class="article">
+   <view>1.洛阳</view>
+   对web前端的岗位需求不是特别多，平均工资在4000左右
+  </view>
+  <view class="article">
+   <view>2.郑州</view>
+   郑州对于web前端岗位需求和一线城市需求差不多，需求量还是比较大的。平均工资在6000左右，如果想要离家近一些，郑州是比较不错的城市。
+  </view>
+   <view class="article">
+    <view>3.北京</view>
+   平均工资在8000左右，需求量很大，找工作相对较容易，但是房租较贵
+  </view>
+</view>
+
+  <view class="wrap">
+    <view class="title">关于我们</view>
+    <view class="article">
+    我们是一家专门培训程序员的短期培训公司，主要解决毕业生不好找工作的问题。</view>
+    <view class="article">如果您身边有这样的亲人朋友：高中或者大学毕业，对现在的工作不满意，但是却苦于没有其他技能，那么机会来了。</view>
+      <view class="article">针对此类同学开设4-5个月的计算机培训，培训内容为中级程序员,毕业即拿<text class="bold">高薪</text> 。
+    </view>
+  </view>
+  <view class="wrap">
+    <view class="title">联系方式</view>
+    <view class="article">
+    <view>手机号：15515383651  15536997205 </view>
+    <view>公司地址：向荣市场向西150米北关八巷 </view>
+    <view>手机号就是微信号</view>
+    </view>
+  </view>

@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/prize/index",
+    "pages/guanyu/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "宜码IT培训",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#ff735a",
+    "list": [
+      {
+        "iconPath": "/images/choujiang.png",
+        "selectedIconPath": "/images/choujiang_sel.png",
+        "pagePath": "pages/index/index",
+        "text": "抽奖"
+      },
+      {
+        "iconPath": "/images/liwu.png",
+        "selectedIconPath": "/images/liwu_sel.png",
+        "pagePath": "pages/prize/index",
+        "text": "奖品"
+      },
+      {
+        "iconPath": "/images/guanyu.png",
+        "selectedIconPath": "/images/guanyu_sel.png",
+        "pagePath": "pages/guanyu/index",
+        "text": "关于我们"
+      }
+    ]
+  }
+}

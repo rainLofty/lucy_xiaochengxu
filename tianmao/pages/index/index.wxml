@@ -1,0 +1,37 @@
+<image src="http://www.liubai.shop/lucky/fuli.png" class="fuli"></image>
+<image src="http://www.liubai.shop/lucky/bigtitle.png" class="title1"></image>
+<image src="http://www.liubai.shop/lucky/title2.png" class="title2"></image>
+<view class="container-out">
+ <view 
+  class="circle" wx:for="{{circleList}}" wx:key="index"
+  style="top:{{item.topCircle}}rpx;left:{{item.leftCircle}}rpx;background-color: {{(index%2==0)?colorCircleFirst:colorCircleSecond}};"></view>
+  <view class="container-in">
+    <view class="content-out" wx:for="{{awardList}}" wx:key="index" style="top:{{item.topAward}}rpx;left:{{item.leftAward}}rpx;background-color: {{(index==indexSelect)?colorAwardSelect:colorAwardDefault}};">
+      <image class="award-image" src="{{imgurl + item.imageAward.src}}"  mode="widthFix"></image>
+      <text class="award-text">{{item.imageAward.title}}</text>
+    </view>
+    <view class="start-btn {{isRunning?'graybg':''}}">
+    <button open-type="getUserInfo" bindgetuserinfo="getuserinfo"><text>立即</text><text>抽奖</text></button></view>
+  </view> 
+  </view>
+  <view class="mask" wx:if="{{showmask}}" bindtap="closemask">
+    <view class="whitebg">
+      <image src="../../images/gongxi.png" class="gongxi" mode="widthFix"></image>
+      <image src="{{imgurl+prize.src}}" class="prize" mode="widthFix"></image>
+      <view class="btns" wx:if="{{prizeSuccess == 1}}">
+        <button class="agin" open-type="share">分享</button>
+        <button class="lingjiang" catchtap="onclickgetuserinfo"> 去领奖</button>
+      </view>
+    </view>
+  </view>
+  
+  <view class="shuoming">
+    <view class="h3">活动说明</view>
+    <view class="list">
+      <view>1.活动时间：6月1日-6月15日</view>
+      <view>2.每人只能领一个奖品</view>
+      <view>3.中奖之后请尽快到公司领取奖品</view>
+      <view>4.领奖地址：向荣市场向西150米北关路8巷</view>
+      <view>5.活动最终解释权归宜码科技所有</view>
+    </view>
+  </view>

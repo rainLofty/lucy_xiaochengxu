@@ -1,0 +1,36 @@
+<block wx:if="{{prizeData}}">
+  <view class="prizelist">
+    <view class="h3">我的奖品列表</view>
+    <view class="prize">
+      <image src="{{imgurl+prizeData.src}}" mode="widthFix"></image>
+      <view class="info">
+        <text class="title">{{prizeData.title}}</text>
+        <text class="time">{{prizeData.starttime}}</text>
+      </view>
+      <button type="warn" class="sharebtn" bindtap="showmask">分享</button>
+    </view>
+    
+    <view class="duihuan">
+      <view>兑奖流程:</view>
+      <view>1.兑奖流程请问客服</view>
+      <view>2.前往"向荣市场西150米北关8巷4楼"领取奖品</view>
+      <view>3.客服微信号：15536997205</view>
+    </view>
+    <view class="openid">
+      <button bindtap="onclickshowcode">查看兑奖码</button>
+      <view wx:if="{{showcode}}">{{prizeData.code}}
+      <button class="copy" bindtap="onclickcopy">复制</button></view>
+    </view>
+  </view>
+  <view class="mask" wx:if="{{showmask}}" bindtap="hidemask">
+    <view class="whitebg">
+      <image src="{{src}}" mode="widthFix" catchtap="showactionsheet"></image>
+    </view>
+  </view>
+</block>
+<block wx:else>
+  <button type="warn" class="gotochou" bindtap="gotoChou">去抽奖</button>
+</block>
+<view class="kefu">
+<image src="{{imgurl+'kefu.png'}}" mode="widthFix"></image>
+<text>客服微信</text></view>
